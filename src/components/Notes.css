@@ -1,0 +1,99 @@
+/* Notes.css */
+.notes-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 0px;
+    padding: 20px;
+   
+    background-color: #f9f9f9;
+  }
+  
+  .notes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notes-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-note input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+   
+  }
+  
+  .add-note .button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-note .button:hover {
+    background-color: #0056b3;
+  }
+/* Notes.css */
+.notes-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    background-color: #f9f9f9;
+  }
+  
+  .notes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notes-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-note input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .add-note .button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-note .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the delete button */
+  .notes-list li button {
+    background-color: #dc3545; /* Change the color here */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .notes-list li button:hover {
+    background-color: #c82333; /* Change the hover color here */
+  }
+    

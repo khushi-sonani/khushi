@@ -1,0 +1,215 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-right: 800px;
+  margin-top: px;
+  margin-left: 10px;
+  }
+  .bttn {
+    
+    border: 2px solid pink;
+    border-radius: 5px;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 1%;
+  }
+  
+  .box {
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+  border-left: 5px solid black;
+  background-color: antiquewhite;
+  }
+  .react-calendar { 
+    width: 400px;
+    max-width: 100%;
+    margin-top: 50px;
+    background-color: #fff;
+    color: #222;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+    border: none;
+   }
+   .react-calendar__navigation button {
+    color: #6f48eb;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+   }
+   .react-calendar__navigation button:enabled:hover,
+   .react-calendar__navigation button:enabled:focus {
+    background-color: #f8f8fa;
+   }
+   .react-calendar__navigation button[disabled] {
+    background-color: #f0f0f0;
+   }
+   abbr[title] {
+    text-decoration: none;
+   }
+   /* .react-calendar__month-view__days__day--weekend {
+    color: #d10000;
+   } */
+   .react-calendar__tile:enabled:hover,
+   .react-calendar__tile:enabled:focus {
+    background: #f8f8fa;
+    color: #6f48eb;
+    border-radius: 6px;
+   }
+   .react-calendar__tile--now {
+    background: #6f48eb33;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #6f48eb;
+   }
+   .react-calendar__tile--now:enabled:hover,
+   .react-calendar__tile--now:enabled:focus {
+    background: #6f48eb33;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #6f48eb;
+   }
+   .react-calendar__tile--hasActive:enabled:hover,
+   .react-calendar__tile--hasActive:enabled:focus {
+    background: #f8f8fa;
+   }
+   .react-calendar__tile--active {
+    background: #6f48eb;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+   }
+   .react-calendar__tile--active:enabled:hover,
+   .react-calendar__tile--active:enabled:focus {
+    background: #6f48eb;
+    color: white;
+   }
+   .react-calendar--selectRange .react-calendar__tile--hover {
+    background-color: #f8f8fa;
+   }
+   .react-calendar__tile--range {
+    background: #f8f8fa;
+    color: #6f48eb;
+    border-radius: 0;
+   }
+   .react-calendar__tile--rangeStart {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #6f48eb;
+    color: white;
+   }
+   .react-calendar__tile--rangeEnd {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #6f48eb;
+    color: white;
+   }
+   .react-calendar__navigation {
+    border: none;
+  }
+  .hr {
+    border: none; /* remove default hr border */
+    height: 1px;
+    background-color:gray;
+    border-left: 200px solid gray; /* increase left side width */
+    border-right: 100px solid gray; /* increase right side width */
+    margin-left: 1px;
+  }
+  .widerCalendar .MuiPickersBasePicker-pickerView {
+    /* specify desired width here */
+    width: 150%;
+  }
+  .dialog {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .DialogTitle {
+    /* Add your styles for the DialogTitle component here */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .DialogContent {
+    /* Add your styles for the DialogContent component here */
+    padding: 10px;
+  }
+  
+  .DialogContentText {
+    /* Add your styles for the DialogContentText component here */
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .DialogActions {
+    /* Add your styles for the DialogActions component here */
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  
+  
+  .bttn:hover {
+    background-color: #ef98e9;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e5e5e5;
+  }
+  /* CSS in your attendance.css or a separate CSS file */
+.date-button {
+  background-color: #4f5cd7; /* Your desired background color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 50%; /* To make the date tiles circular */
+  width: 2em;
+  height: 2em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Add hover effect if needed */
+.date-button:hover {
+  background-color: #1d2a6e; /* Change color on hover */
+}
+
+  

@@ -1,0 +1,135 @@
+.bo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 50%;
+    padding-bottom: 0;
+   
+    
+}
+.card{ Width: 100px;
+        height: 200px; 
+        margin: 10px
+ }
+ .box-row{
+    height: 50%;
+ }
+ .icon-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the icon */
+    align-items: center; /* Vertically center the icon */
+    height: 100%; /* Ensure the container takes up the full height of the card */
+    padding-bottom: 10px;
+    color:#4f5cd7;
+  }
+  .p{
+    
+    color:#4f5cd7;
+    
+  }
+  .font{
+    font-size: 13px;
+  }
+  .p1{
+    padding-left: 8px;
+    padding-top: 7px;
+    color: #4f5cd7;
+  }
+  
+  .container-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+   
+  }
+  .logo{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .img1{
+    padding-bottom: 400%;
+    padding-left: 160%;
+    padding-top: 5%;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+    padding-top: 20px; /* Adjust the top padding as needed */
+  }
+  
+  /* ...Your existing styles for boxes and cards... */
+  
+  .fing-image {
+    position: absolute;
+    left: 20px; /* Adjust the left position as needed */
+    bottom: 20px; /* Adjust the bottom position as needed */
+  }
+  .box-row1{
+    margin-top: 20%;
+  }
+  .card0{
+   
+    margin-top: 1%;
+   
+ 
+    
+  }
+
+
+.alarm{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+/* YourComponent.css */
+.custom-timepicker {
+  width: 200px; 
+}
+
+
+.setalarm{
+  font-size: 120%;
+  font-weight: bold;
+}
+.punch {
+  display: flex;
+  align-items: center; /* Center vertically within the container */
+}
+
+.punch p {
+  margin-left: 10px;
+  display: flex; /* Add some spacing between the text and the Switch */
+  align-items: center;
+ 
+}
+.switch{
+  margin-left: 10px;
+  align-items: center;
+  padding-bottom: 10%;
+}
+.punch1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.punch{
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.button{
+
+
+}
+
+  

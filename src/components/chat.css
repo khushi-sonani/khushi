@@ -1,0 +1,52 @@
+/* Styling for the chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 0 auto;
+
+}
+
+/* Styling for the chat box */
+.chat-box {
+
+    padding: 0px;
+    height: 467px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/* Styling for individual messages */
+.message {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+   
+    background-color: #e6e6e6;
+}
+
+/* Styling for different message types */
+.message.addchat {
+    background-color: #e6e6e6;
+}
+
+/* Styling for the input container */
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the message input field */
+#message-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Styling for the send button */
+
+
+

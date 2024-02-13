@@ -1,0 +1,82 @@
+/* CSS for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* CSS for the table */
+  table {
+    width: 80%;
+    max-width: 1000px; /* Set a max-width to prevent it from becoming too wide */
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #fff;
+  }
+ 
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: left;
+  }
+  
+  /* Style for table header row */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for alternating rows */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for buttons */
+  .edit-button, .save-button, .delete-button, .add-button {
+    padding: 8px 16px; /* Increase button padding */
+    margin: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .add-button {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  .popup-content {
+    width: 400px; /* Set your desired width here */
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
